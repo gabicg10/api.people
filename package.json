@@ -1,0 +1,19 @@
+{
+  "name": "api.people",
+  "version": "1.0.0",
+  "description": "api pra cadastro de pessoas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriela de Carvalho Goncalves",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "keywords": [],
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "typescript-require": "^0.3.0"
+  }
+}
