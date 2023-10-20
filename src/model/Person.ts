@@ -161,4 +161,9 @@ export class Person{
     public eatDish(_dish: string){
         console.log(`${this.name} ate ${_dish}`)
     }
+
+    /**CRUD */
+    cadastroPessoa(pessoa: Person) {
+        console.log(`${pessoa.name} cadastrada com sucesso!!!!`);
+    }
 }
