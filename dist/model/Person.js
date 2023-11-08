@@ -143,6 +143,10 @@ class Person {
     eatDish(_dish) {
         console.log(`${this.name} ate ${_dish}`);
     }
+    /**CRUD */
+    cadastroPessoa(pessoa) {
+        console.log(`${pessoa.name} cadastrada com sucesso!!!!`);
+    }
 }
 exports.Person = Person;
 //# sourceMappingURL=Person.js.map
